@@ -1,0 +1,91 @@
+
+/***** Random *****/
+
+.mp{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+/***** Fuente ******/
+
+.fuente{
+    font-family: 'Coming Soon', Arial, Helvetica, sans-serif;
+    color: #fff;
+    line-height: 1;
+}
+
+.fuente--titulo-primario{
+    font-size: 8rem;
+
+}
+
+.fuente--titulo-secundario{
+    font-size: 2.5rem;
+    text-align: right;
+}
+
+.fuente--titulo-logo{
+    font-size: 6rem;
+    text-decoration: none;
+}
+
+.fuente--titulo-secundario-logo{
+    font-size: 2rem;
+    text-align: right;
+}
+
+.fuente--p {
+    font-size: 2rem;
+}
+
+.fuente--btn-primario{
+    font-size: 3.5rem;
+}
+
+
+/***** Fondo *****/
+
+.bg {
+    background-color: rgba(0, 0, 0, 0.603) ;
+    background-image: url(../img/bosque.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.bg__filtro {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.60);
+  background-attachment: fixed;
+}
+
+/***** Botones *****/
+
+.btn{
+    border: solid 2px rgba(255, 251, 44, 0.788);
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 1rem;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn:hover{
+    background-color:rgba(255, 251, 44, 0.5);
+   cursor: pointer;
+}
+
+
+.btn--primario{
+    width: 20rem;
+    height: 7.5rem;
+    margin-right: 2rem;
+    line-height: 7.5rem;
+}
+
+.btn--small{
+    padding: 1rem 3rem;
+    margin-left: 1rem;
+}
+

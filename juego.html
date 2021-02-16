@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahorcado by JoGal</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.juego.css">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="bg">
+        <div class="bg__filtro">
+            <div class="contenedorGrid">
+                <header class="contenedor">
+                    <div class="logo">
+                        <a href="./index.html" class="fuente fuente--titulo-logo mp">Ahorcado</a>
+                        <h2 class="fuente fuente--titulo-secundario-logo mp">adivina la palabra...</h2>
+                    </div>
+
+                    <div class="contenedorInput fuente fuente--titulo-secundario-logo mp">
+                        <form action="">
+                            <input   onkeypress="return pulsar(event)" type="text" placeholder="Escribe una palabra..." name="" id="palabra" class="palabraInput">
+                            <a class= 'fuente fuente--titulo-secundario btn btn--small' id='btnOcultar'>ocultar</a>
+                            <a href="javascript:location.reload()" class= 'fuente fuente--titulo-secundario btn btn--small' id='btnOcultar'>reiniciar</a>
+                        </form>
+                    </div>
+                </header>
+                <main class="mainGrid">
+                    <section class="ahorcado">
+                   <div class="img"> <img src="" alt="" id="img1"></div>
+                   <div class="img"> <img src="" alt="" id="img2"></div>
+                   <div class="img"> <img src="" alt="" id="img3"></div>
+                   <div class="img"> <img src="" alt="" id="img4"></div>
+                   <div class="img"> <img src="" alt="" id="img5"></div>
+                   <div class="img"> <img src="" alt="" id="img10"></div>
+                   <div class="img"> <img src="" alt="" id="img9"></div>
+                   <div class="img"> <img src="" alt="" id="img8"></div>
+                   <div class="img"> <img src="" alt="" id="img7"></div>
+                   <div class="img"> <img src="" alt="" id="img6"></div>
+                    </section>
+
+                    <section class="seccionPalabraOculta" id="seccionPalabra">
+                    </section>
+
+                    <section class="teclado " id="seccionTeclado">
+                    </section>
+                </main>
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>   
+</body>
+</html>
